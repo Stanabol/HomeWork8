@@ -1,1 +1,61 @@
 /* styles goes here */
+
+.container {
+    display: flex;
+}
+.hr {
+    margin: 0 auto;
+    margin-top: 96px;
+    height: 1px;
+    width: 100px;
+    background: #2C4058;
+}
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #2C4058;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+
+.row {
+    text-align: center;
+}
+
+.img {
+    margin-bottom: 30px;
+    
+}
+
+.button  {
+    border: 1px solid #2C4058;
+    box-sizing: border-box;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0 auto;
+    margin-top: 114px;
+    margin-bottom: 127px;
+}
+
+a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #2C4058;
+    text-decoration: none;
+}
+.col-6 img {
+    display: flex;
+    width: 100%;
+}
