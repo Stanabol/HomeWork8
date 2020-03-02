@@ -43,7 +43,7 @@
     margin-bottom: 127px;
 }
 
-a {
+.button a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -52,8 +52,13 @@ a {
     text-transform: uppercase;
     color: #2C4058;
     text-decoration: none;
+    padding: 17px 55px;
 }
 .col-6 img {
     display: flex;
     width: 100%;
 }
+
+.button:hover {
+    background-color: aqua;
+} 
